@@ -1,1 +1,6 @@
+""
+"" .vimrc.before
+""
+
+" Hide MacVim after closing window
 au VimLeave * maca hide:

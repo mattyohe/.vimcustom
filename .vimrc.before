@@ -1,6 +1,10 @@
 ""
 "" .vimrc.before
 ""
+" Hide MacVim Toolbar
+if has("gui_running")
+      set guioptions=egmrt
+endif
 
 " Hide MacVim after closing window
 au VimLeave * maca hide:

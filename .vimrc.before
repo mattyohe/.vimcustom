@@ -7,4 +7,4 @@ if has("gui_running")
 endif
 
 " Hide MacVim after closing window
-au VimLeave * maca hide:
+"au VimLeave * maca hide:
